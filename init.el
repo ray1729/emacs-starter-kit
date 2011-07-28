@@ -76,4 +76,7 @@
   (mapc #'load (directory-files user-specific-dir nil ".*el$")))
 (if (file-exists-p user-specific-config) (load user-specific-config))
 
+(add-to-list 'load-path (concat dotfiles-dir "/pde"))
+(load "pde-load")
+
 ;;; init.el ends here
