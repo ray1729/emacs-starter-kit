@@ -21,3 +21,4 @@ session*
 tramp
 \#*
 history
+pde/tools/perldoc-cache.el
